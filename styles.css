@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .btn{
+        @apply flex size-14 justify-center items-center transition-all rounded-full text-sm font-bold text-white shadow-lg shadow-blue-400 active:shadow-sm hover:shadow-md
+    }
+}
